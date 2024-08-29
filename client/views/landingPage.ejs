@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>☕ Blacktea</title>
+	<script src="/js/client.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scoreboard</title>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+
+	<div class="joinRoomContainer">
+		<input type="text" id="roomIDValue" placeholder="Join room!">
+		<button id="joinRoomBtn">Join!</button>
+		<button id="createRoomBtn">Create Room</button>
+		<a href="http://game.pendragonscode.xyz/">
+			<button id="pacman">Pacman</button>
+		</a>
+		<a href="http://pendragonscode.xyz/">
+			<button id="home">Main Site</button>
+		</a>
+		<a href="/rules">
+			<button id="home">rules</button>
+		</a>
+	</div>
+	<br>
+	<div class="container">
+		<p>room ID:</p>
+		<div id="roomID">
+		</div>
+		<br><br>
+		<div id="roomCreator">
+			creator:
+		</div>
+		<div id="roomExpiry">
+			room expiry
+		</div>
+		<div id="scoreboard">
+		</div>
+		<div id="lastWord">
+		</div>
+		<br><br>
+		<div id="message">
+		</div>
+		<br><br>
+		<div id="turn">
+			turn:
+		</div>
+		<input type="text" id="word-input" placeholder="Enter a word">
+		<button id="submit-word-btn">Submit</button>
+		<br><br><button id="endGame">end game</button><button id="startGame">start game</button>
+		<br><br>
+		<div id="words-used">
+		</div>
+		<br><br>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+node_modules
+.irrelevant
+.eslint.js
+package-lock.json
+.env
+.env.development
+.env.production
+todo

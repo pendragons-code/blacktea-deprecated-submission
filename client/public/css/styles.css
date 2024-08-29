@@ -1,0 +1,177 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("/wallpaper.gif");
+	background-color: #cccccc;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	width: 50%;
+	color: #f5bc92;
+	background-color: #37352a;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	justify-content: center;
+	border: 3px solid green;
+	align-items: center;
+}
+
+.joinRoomContainer {
+	position: absolute;
+	color: #f5bc92;
+	background-color: #37352a;
+	border: 3px solid green;
+	padding: 20px;
+}
+
+#joinRoomBtn {
+	background-color: green;
+	color: #f5bc92;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+#createRoomBtn {
+	background-color: green;
+	color: #f5bc92;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+
+#pacman {
+	margin-left: 40px;
+	padding: 5px;
+	color: black;
+	background-color: yellow;
+}
+
+#home {
+	padding: 5px;
+	color: black;
+	background-color: cyan;
+}
+
+#roomCreator {
+	margin: 5px;
+	padding: 5px;
+	border: 3px solid green;
+	color: #f5bc92;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#roomExpiry {
+	margin: 5px;
+	padding: 5px;
+	border: 3px solid green;
+	color: #f5bc92;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#scoreboard {
+	border: 3px solid green;
+	color: #f5bc92;
+	float: left;
+	overflow: auto;
+	position: absolute;
+	margin-bottom: 10px;
+	max-height: 100px;
+}
+
+#message {
+	margin-top: 10px;
+	float: 0, right;
+	left: 10%;
+	position: absolute;
+	padding: 5px;
+	border: 3px solid green;
+	max-width: 400px;
+	overflow: auto;
+}
+
+#turn {
+	padding: 5px;
+	border: 3px solid green;
+	float: right;
+	overflow: auto;
+}
+
+#lastWord {
+	margin: 5px;
+	padding: 5px;
+	border: 3px solid green;
+	float: right;
+	overflow: auto;
+}
+
+#words-used {
+	overflow: auto;
+	color: #f5bc92;
+}
+
+#word-input {
+	margin-left: 120px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	width: 200px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.disabled-form {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+button:disabled,
+button[disabled]{
+	background-color: #cccccc;
+	color: #666666;
+}
+
+
+#startGame:disabled {
+	margin-left: 40px;
+	padding: 10px;
+	color: #666666;
+	background-color: #cccccc;
+}
+
+
+#endGame:disabled {
+	padding: 10px;
+	color: #666666;
+	background-color: #cccccc;
+}
+
+#startGame {
+	margin-left: 40px;
+	padding: 10px;
+	color: white;
+	background-color: green;
+}
+
+#endGame {
+	background-color: red;
+	padding: 10px;
+	color: white;
+}
